@@ -50,6 +50,7 @@
 //     skills:['Java','C++','C','Python'],
 //     aim:"Web Developer"
 // };
+// console.log(`${zaid.name} knows ${zaid.skills.length} languages but his favourite language is ${zaid.skills[1]}!`)
 //if the value is not present then it shows undefined
 // console.log(zaid["efg"])
 
@@ -58,5 +59,16 @@
 //     console.log(zaid[quest]);
 // else
 //     console.log("Wrong choice");
+
+zaid={
+    name:"Zaid",
+    dob:2002,
+    currentYear:2024,
+    currentAge:function (){
+        let value=this.currentYear-this.dob;
+        return value;
+    }
+}
+console.log(zaid.currentAge())
 
 
