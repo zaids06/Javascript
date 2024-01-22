@@ -24,8 +24,6 @@
 //
 // console.log(maxOfTwo(113,551))
 
-
-
 //Arrays
 
 // const arr=[1,2,3,4]
@@ -60,15 +58,17 @@
 // else
 //     console.log("Wrong choice");
 
-zaid={
-    name:"Zaid",
-    dob:2002,
-    currentYear:2024,
-    currentAge:function (){
-        let value=this.currentYear-this.dob;
-        return value;
-    }
-}
-console.log(zaid.currentAge())
+// zaid={
+//     name:"Zaid",
+//     dob:2002,
+//     currentYear:2024,
+//     currentAge:function (){
+//         let value=this.currentYear-this.dob;
+//         return value;
+//     }
+// }
+// console.log(zaid.currentAge())
 
-
+// let s1 = "";
+// if (s1 == 0) console.log("Undefined");
+// else console.log("Not undefined");
