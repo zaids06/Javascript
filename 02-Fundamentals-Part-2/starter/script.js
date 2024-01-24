@@ -68,7 +68,6 @@
 //     }
 // }
 // console.log(zaid.currentAge())
-
 // let s1 = "";
 // if (s1 == 0) console.log("Undefined");
 // else console.log("Not undefined");
